@@ -1,0 +1,15 @@
+{
+  "name": "routific-design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/routific/framerx.git",
+  "author": "Chris Girard <chris@routifc.com>",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^3.19.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0",
+    "typescript": "^3.4.3"
+  }
+}
