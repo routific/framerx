@@ -29,4 +29,6 @@ export const colors = Object.freeze({
     "bodyLighter": "var(--token-33a42542-13e4-4557-867a-b72815d965c1, rgb(102, 102, 102))",
     /** #AAAAAA */
     "bodyLightest": "var(--token-dc87bb81-7419-4d7d-bc84-efea7652bca8, rgb(170, 170, 170))",
+    /** #FFBC00 */
+    "primaryYellow": "var(--token-6f68ee6b-abd9-4fcd-ae29-69de9bc5101d, rgb(255, 188, 0))",
 })
