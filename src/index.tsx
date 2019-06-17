@@ -1,5 +1,5 @@
-export { AntButton, Props as AntButtonProps } from "./components/AntButton"
 export { Button, Props as ButtonProps } from "./components/Button"
 export { Input, Props as InputProps } from "./components/Input"
 export { Toggle, Props as ToggleProps } from "./components/Toggle"
 export { Tooltip, Props as TooltipProps } from "./components/Tooltip"
+export { ButtonFC, Props as ButtonFCProps } from "./components/ButtonFC"

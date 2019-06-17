@@ -1,30 +1,14 @@
 import * as React from "react"
-import * as System from "../../design-system"
-import { ControlType, PropertyControls } from "framer"
+import * as System from "../../src"
+import { ControlType, addPropertyControls } from "framer"
 
-type Props = System.AntButtonProps & {
-    width: number
-    height: number
-    label: string
-    type: "default" | "primary" | "danger" | "ghost" | "dashed"
-    size: "default" | "small" | "large"
-    icon: string
-    disabled: boolean
-    ghost: boolean
-    circle: boolean
-    onClick: React.MouseEventHandler
-}
+export const ButtonFC = props => <System.ButtonFC {...props} />
 
-export class Button extends React.Component<Props> {
-  render() {
-    return <System.AntButton {...this.props} />
-  }
-
-  static defaultProps = {
+ButtonFC.defaultProps = {
     width: 68,
     height: 32,
     label: "Label",
-    type: "default",
+    type: "primary",
     size: "default",
     icon: "",
     disabled: false,
@@ -33,8 +17,8 @@ export class Button extends React.Component<Props> {
     onClick: () => {},
 }
 
-static propertyControls: PropertyControls = {
-    label: { type: ControlType.String, title: "Label" },
+addPropertyControls(ButtonFC, {
+    label: { type: ControlType.String, title: "test" },
     icon: { type: ControlType.String, title: "Icon" },
     type: {
         type: ControlType.Enum,
@@ -49,5 +33,4 @@ static propertyControls: PropertyControls = {
     circle: { type: ControlType.Boolean, title: "Circle" },
     disabled: { type: ControlType.Boolean, title: "Disabled" },
     ghost: { type: ControlType.Boolean, title: "Ghost" },
-}
-}
+})
