@@ -37,6 +37,20 @@
   dependencies:
     antd "^3.9.2"
 
+"@framer/routific.form-mock@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.framer.com/@framer/routific.form-mock/-/@framer/routific.form-mock-1.0.0.tgz#81033502a7297097c596454d38a542fd62127714"
+  integrity sha512-1ycWpvRJzUHUJalLB4/ifsTVuHLDRqLMszvTXb7Fa9uKrCMCXmwWzCuIwT+HuBqPsHkLS5W6qzdVXQQ2FS1iXQ==
+  dependencies:
+    "@framer/routific.routific" "^1.5.0"
+
+"@framer/routific.routific@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.framer.com/@framer/routific.routific/-/@framer/routific.routific-1.5.0.tgz#1ca1886528893801e8fb762ebd6cd52b94651b35"
+  integrity sha512-VH7V6hrW07vpWoJ96Qqbo9u/chHTEOe/YZ8MF7DJaOhZemzv+7ps9kpNFt4V2OW/OMmWpjF1+pjgbm3k/46SaA==
+  dependencies:
+    "@framer/alnikitin.ant-components" "^1.2.0"
+
 "@types/prop-types@*":
   version "15.7.0"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
