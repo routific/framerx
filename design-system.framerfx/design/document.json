@@ -36,7 +36,14 @@
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
-
+              {
+                "__class" : "ExportOptions",
+                "enabled" : true,
+                "nameExtension" : "@2x",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 2,
+                "type" : "png"
+              }
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
@@ -47,18 +54,38 @@
             "fillLinearGradient" : {
               "__class" : "LinearGradient",
               "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
             },
             "fillRadialGradient" : {
               "__class" : "RadialGradient",
               "alpha" : 1,
               "centerAnchorX" : 0.5,
               "centerAnchorY" : 0.5,
-              "end" : "black",
               "heightFactor" : 0.5,
-              "start" : "rgba(0,0,0,0)",
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
               "widthFactor" : 0.5
             },
             "fillType" : "color",
@@ -94,7 +121,14 @@
         "constraintsLocked" : false,
         "deviceType" : null,
         "exportOptions" : [
-
+          {
+            "__class" : "ExportOptions",
+            "enabled" : true,
+            "nameExtension" : "@2x",
+            "nameExtensionMode" : "Suffix",
+            "scale" : 2,
+            "type" : "png"
+          }
         ],
         "fillColor" : "white",
         "fillEnabled" : true,
@@ -105,18 +139,38 @@
         "fillLinearGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
+          "angle" : 180,
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ]
         },
         "fillRadialGradient" : {
           "__class" : "RadialGradient",
           "alpha" : 1,
           "centerAnchorX" : 0.5,
           "centerAnchorY" : 0.5,
-          "end" : "black",
           "heightFactor" : 0.5,
-          "start" : "rgba(0,0,0,0)",
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ],
           "widthFactor" : 0.5
         },
         "fillType" : "color",
@@ -187,7 +241,14 @@
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
-
+              {
+                "__class" : "ExportOptions",
+                "enabled" : true,
+                "nameExtension" : "@2x",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 2,
+                "type" : "png"
+              }
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
@@ -198,18 +259,38 @@
             "fillLinearGradient" : {
               "__class" : "LinearGradient",
               "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
             },
             "fillRadialGradient" : {
               "__class" : "RadialGradient",
               "alpha" : 1,
               "centerAnchorX" : 0.5,
               "centerAnchorY" : 0.5,
-              "end" : "black",
               "heightFactor" : 0.5,
-              "start" : "rgba(0,0,0,0)",
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
               "widthFactor" : 0.5
             },
             "fillType" : "color",
@@ -245,7 +326,14 @@
         "constraintsLocked" : false,
         "deviceType" : null,
         "exportOptions" : [
-
+          {
+            "__class" : "ExportOptions",
+            "enabled" : true,
+            "nameExtension" : "@2x",
+            "nameExtensionMode" : "Suffix",
+            "scale" : 2,
+            "type" : "png"
+          }
         ],
         "fillColor" : "white",
         "fillEnabled" : true,
@@ -256,18 +344,38 @@
         "fillLinearGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
+          "angle" : 180,
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ]
         },
         "fillRadialGradient" : {
           "__class" : "RadialGradient",
           "alpha" : 1,
           "centerAnchorX" : 0.5,
           "centerAnchorY" : 0.5,
-          "end" : "black",
           "heightFactor" : 0.5,
-          "start" : "rgba(0,0,0,0)",
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ],
           "widthFactor" : 0.5
         },
         "fillType" : "color",
@@ -345,7 +453,14 @@
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
-
+              {
+                "__class" : "ExportOptions",
+                "enabled" : true,
+                "nameExtension" : "@2x",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 2,
+                "type" : "png"
+              }
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
@@ -356,18 +471,38 @@
             "fillLinearGradient" : {
               "__class" : "LinearGradient",
               "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
             },
             "fillRadialGradient" : {
               "__class" : "RadialGradient",
               "alpha" : 1,
               "centerAnchorX" : 0.5,
               "centerAnchorY" : 0.5,
-              "end" : "black",
               "heightFactor" : 0.5,
-              "start" : "rgba(0,0,0,0)",
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
               "widthFactor" : 0.5
             },
             "fillType" : "color",
@@ -403,7 +538,14 @@
         "constraintsLocked" : false,
         "deviceType" : null,
         "exportOptions" : [
-
+          {
+            "__class" : "ExportOptions",
+            "enabled" : true,
+            "nameExtension" : "@2x",
+            "nameExtensionMode" : "Suffix",
+            "scale" : 2,
+            "type" : "png"
+          }
         ],
         "fillColor" : "white",
         "fillEnabled" : true,
@@ -414,18 +556,38 @@
         "fillLinearGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
+          "angle" : 180,
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ]
         },
         "fillRadialGradient" : {
           "__class" : "RadialGradient",
           "alpha" : 1,
           "centerAnchorX" : 0.5,
           "centerAnchorY" : 0.5,
-          "end" : "black",
           "heightFactor" : 0.5,
-          "start" : "rgba(0,0,0,0)",
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ],
           "widthFactor" : 0.5
         },
         "fillType" : "color",
@@ -496,7 +658,14 @@
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
-
+              {
+                "__class" : "ExportOptions",
+                "enabled" : true,
+                "nameExtension" : "@2x",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 2,
+                "type" : "png"
+              }
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
@@ -507,18 +676,38 @@
             "fillLinearGradient" : {
               "__class" : "LinearGradient",
               "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
             },
             "fillRadialGradient" : {
               "__class" : "RadialGradient",
               "alpha" : 1,
               "centerAnchorX" : 0.5,
               "centerAnchorY" : 0.5,
-              "end" : "black",
               "heightFactor" : 0.5,
-              "start" : "rgba(0,0,0,0)",
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
               "widthFactor" : 0.5
             },
             "fillType" : "color",
@@ -554,7 +743,14 @@
         "constraintsLocked" : false,
         "deviceType" : null,
         "exportOptions" : [
-
+          {
+            "__class" : "ExportOptions",
+            "enabled" : true,
+            "nameExtension" : "@2x",
+            "nameExtensionMode" : "Suffix",
+            "scale" : 2,
+            "type" : "png"
+          }
         ],
         "fillColor" : "white",
         "fillEnabled" : true,
@@ -565,18 +761,38 @@
         "fillLinearGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
+          "angle" : 180,
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ]
         },
         "fillRadialGradient" : {
           "__class" : "RadialGradient",
           "alpha" : 1,
           "centerAnchorX" : 0.5,
           "centerAnchorY" : 0.5,
-          "end" : "black",
           "heightFactor" : 0.5,
-          "start" : "rgba(0,0,0,0)",
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ],
           "widthFactor" : 0.5
         },
         "fillType" : "color",
@@ -664,18 +880,38 @@
                 "fillLinearGradient" : {
                   "__class" : "LinearGradient",
                   "alpha" : 1,
-                  "angle" : 0,
-                  "end" : "rgba(0,0,0,0)",
-                  "start" : "black"
+                  "angle" : 180,
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ]
                 },
                 "fillRadialGradient" : {
                   "__class" : "RadialGradient",
                   "alpha" : 1,
                   "centerAnchorX" : 0.5,
                   "centerAnchorY" : 0.5,
-                  "end" : "black",
                   "heightFactor" : 0.5,
-                  "start" : "rgba(0,0,0,0)",
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ],
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
@@ -743,18 +979,38 @@
             "fillLinearGradient" : {
               "__class" : "LinearGradient",
               "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
             },
             "fillRadialGradient" : {
               "__class" : "RadialGradient",
               "alpha" : 1,
               "centerAnchorX" : 0.5,
               "centerAnchorY" : 0.5,
-              "end" : "black",
               "heightFactor" : 0.5,
-              "start" : "rgba(0,0,0,0)",
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
               "widthFactor" : 0.5
             },
             "fillType" : "color",
@@ -800,7 +1056,102 @@
                 "centerAnchorX" : 0.13123644251626898,
                 "centerAnchorY" : 0.59375,
                 "children" : [
+                  {
+                    "__class" : "FrameNode",
+                    "aspectRatio" : null,
+                    "blendingEnabled" : 0,
+                    "blendingMode" : "normal",
+                    "bottom" : null,
+                    "centerAnchorX" : 0.47727272727272729,
+                    "centerAnchorY" : 0.44318181818181818,
+                    "children" : [
 
+                    ],
+                    "clip" : false,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "deviceType" : null,
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0, 153, 255, 0.5)",
+                    "fillEnabled" : true,
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillLinearGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 180,
+                      "stops" : [
+                        {
+                          "__class" : "GradientColorStop",
+                          "position" : 0,
+                          "value" : "rgba(0,0,0,0)"
+                        },
+                        {
+                          "__class" : "GradientColorStop",
+                          "position" : 1,
+                          "value" : "black"
+                        }
+                      ]
+                    },
+                    "fillRadialGradient" : {
+                      "__class" : "RadialGradient",
+                      "alpha" : 1,
+                      "centerAnchorX" : 0.5,
+                      "centerAnchorY" : 0.5,
+                      "heightFactor" : 0.5,
+                      "stops" : [
+                        {
+                          "__class" : "GradientColorStop",
+                          "position" : 0,
+                          "value" : "rgba(0,0,0,0)"
+                        },
+                        {
+                          "__class" : "GradientColorStop",
+                          "position" : 1,
+                          "value" : "black"
+                        }
+                      ],
+                      "widthFactor" : 0.5
+                    },
+                    "fillType" : "color",
+                    "height" : 5,
+                    "heightType" : 0,
+                    "id" : "HjqHFNhOz",
+                    "intrinsicHeight" : null,
+                    "intrinsicWidth" : null,
+                    "isExternalMaster" : null,
+                    "isMaster" : false,
+                    "isTarget" : false,
+                    "left" : null,
+                    "locked" : false,
+                    "name" : null,
+                    "navigationTarget" : null,
+                    "navigationTransition" : "push",
+                    "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+                    "navigationTransitionDirection" : "left",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "glzoCrTqK",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "replicaInfo" : null,
+                    "right" : null,
+                    "rotation" : 0,
+                    "top" : 17,
+                    "visible" : true,
+                    "width" : 2,
+                    "widthType" : 0
+                  }
                 ],
                 "clip" : false,
                 "codeOverrideEnabled" : false,
@@ -818,18 +1169,38 @@
                 "fillLinearGradient" : {
                   "__class" : "LinearGradient",
                   "alpha" : 1,
-                  "angle" : 0,
-                  "end" : "rgba(0,0,0,0)",
-                  "start" : "black"
+                  "angle" : 180,
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ]
                 },
                 "fillRadialGradient" : {
                   "__class" : "RadialGradient",
                   "alpha" : 1,
                   "centerAnchorX" : 0.5,
                   "centerAnchorY" : 0.5,
-                  "end" : "black",
                   "heightFactor" : 0.5,
-                  "start" : "rgba(0,0,0,0)",
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ],
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
@@ -897,18 +1268,38 @@
             "fillLinearGradient" : {
               "__class" : "LinearGradient",
               "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
             },
             "fillRadialGradient" : {
               "__class" : "RadialGradient",
               "alpha" : 1,
               "centerAnchorX" : 0.5,
               "centerAnchorY" : 0.5,
-              "end" : "black",
               "heightFactor" : 0.5,
-              "start" : "rgba(0,0,0,0)",
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
               "widthFactor" : 0.5
             },
             "fillType" : "color",
@@ -972,18 +1363,38 @@
                 "fillLinearGradient" : {
                   "__class" : "LinearGradient",
                   "alpha" : 1,
-                  "angle" : 0,
-                  "end" : "rgba(0,0,0,0)",
-                  "start" : "black"
+                  "angle" : 180,
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ]
                 },
                 "fillRadialGradient" : {
                   "__class" : "RadialGradient",
                   "alpha" : 1,
                   "centerAnchorX" : 0.5,
                   "centerAnchorY" : 0.5,
-                  "end" : "black",
                   "heightFactor" : 0.5,
-                  "start" : "rgba(0,0,0,0)",
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ],
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
@@ -1051,18 +1462,38 @@
             "fillLinearGradient" : {
               "__class" : "LinearGradient",
               "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
             },
             "fillRadialGradient" : {
               "__class" : "RadialGradient",
               "alpha" : 1,
               "centerAnchorX" : 0.5,
               "centerAnchorY" : 0.5,
-              "end" : "black",
               "heightFactor" : 0.5,
-              "start" : "rgba(0,0,0,0)",
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
               "widthFactor" : 0.5
             },
             "fillType" : "color",
@@ -1126,18 +1557,38 @@
                 "fillLinearGradient" : {
                   "__class" : "LinearGradient",
                   "alpha" : 1,
-                  "angle" : 0,
-                  "end" : "rgba(0,0,0,0)",
-                  "start" : "black"
+                  "angle" : 180,
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ]
                 },
                 "fillRadialGradient" : {
                   "__class" : "RadialGradient",
                   "alpha" : 1,
                   "centerAnchorX" : 0.5,
                   "centerAnchorY" : 0.5,
-                  "end" : "black",
                   "heightFactor" : 0.5,
-                  "start" : "rgba(0,0,0,0)",
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ],
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
@@ -1205,18 +1656,38 @@
             "fillLinearGradient" : {
               "__class" : "LinearGradient",
               "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
             },
             "fillRadialGradient" : {
               "__class" : "RadialGradient",
               "alpha" : 1,
               "centerAnchorX" : 0.5,
               "centerAnchorY" : 0.5,
-              "end" : "black",
               "heightFactor" : 0.5,
-              "start" : "rgba(0,0,0,0)",
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
               "widthFactor" : 0.5
             },
             "fillType" : "color",
@@ -1280,18 +1751,38 @@
                 "fillLinearGradient" : {
                   "__class" : "LinearGradient",
                   "alpha" : 1,
-                  "angle" : 0,
-                  "end" : "rgba(0,0,0,0)",
-                  "start" : "black"
+                  "angle" : 180,
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ]
                 },
                 "fillRadialGradient" : {
                   "__class" : "RadialGradient",
                   "alpha" : 1,
                   "centerAnchorX" : 0.5,
                   "centerAnchorY" : 0.5,
-                  "end" : "black",
                   "heightFactor" : 0.5,
-                  "start" : "rgba(0,0,0,0)",
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0,0,0,0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "black"
+                    }
+                  ],
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
@@ -1359,18 +1850,38 @@
             "fillLinearGradient" : {
               "__class" : "LinearGradient",
               "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
             },
             "fillRadialGradient" : {
               "__class" : "RadialGradient",
               "alpha" : 1,
               "centerAnchorX" : 0.5,
               "centerAnchorY" : 0.5,
-              "end" : "black",
               "heightFactor" : 0.5,
-              "start" : "rgba(0,0,0,0)",
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
               "widthFactor" : 0.5
             },
             "fillType" : "color",
@@ -1419,7 +1930,14 @@
         "constraintsLocked" : false,
         "deviceType" : null,
         "exportOptions" : [
-
+          {
+            "__class" : "ExportOptions",
+            "enabled" : true,
+            "nameExtension" : "@2x",
+            "nameExtensionMode" : "Suffix",
+            "scale" : 2,
+            "type" : "png"
+          }
         ],
         "fillColor" : "hsl(0, 0%, 93%)",
         "fillEnabled" : true,
@@ -1430,18 +1948,38 @@
         "fillLinearGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
+          "angle" : 180,
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ]
         },
         "fillRadialGradient" : {
           "__class" : "RadialGradient",
           "alpha" : 1,
           "centerAnchorX" : 0.5,
           "centerAnchorY" : 0.5,
-          "end" : "black",
           "heightFactor" : 0.5,
-          "start" : "rgba(0,0,0,0)",
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ],
           "widthFactor" : 0.5
         },
         "fillType" : "color",
@@ -1469,6 +2007,481 @@
         "top" : -594,
         "visible" : true,
         "width" : 120,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.77805486284289271,
+            "centerAnchorY" : 0.26256077795786059,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/ButtonFC.tsx_ButtonFC",
+            "codeComponentProps" : {
+              "circle" : false,
+              "disabled" : false,
+              "ghost" : false,
+              "icon" : "",
+              "label" : "Label",
+              "size" : "default",
+              "type" : "primary"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillLinearGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
+            },
+            "fillRadialGradient" : {
+              "__class" : "RadialGradient",
+              "alpha" : 1,
+              "centerAnchorX" : 0.5,
+              "centerAnchorY" : 0.5,
+              "heightFactor" : 0.5,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
+              "widthFactor" : 0.5
+            },
+            "fillType" : "color",
+            "height" : 32,
+            "heightType" : 0,
+            "id" : "QkDjd64xR",
+            "intrinsicHeight" : 32,
+            "intrinsicWidth" : 68,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "bGGmOXVvW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 55,
+            "rotation" : 0,
+            "top" : 146,
+            "visible" : true,
+            "width" : 68,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.77556109725685785,
+            "centerAnchorY" : 0.38897893030794167,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Toggle.tsx_Toggle",
+            "codeComponentProps" : {
+              "disabled" : false
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillLinearGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
+            },
+            "fillRadialGradient" : {
+              "__class" : "RadialGradient",
+              "alpha" : 1,
+              "centerAnchorX" : 0.5,
+              "centerAnchorY" : 0.5,
+              "heightFactor" : 0.5,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
+              "widthFactor" : 0.5
+            },
+            "fillType" : "color",
+            "height" : 36,
+            "heightType" : 0,
+            "id" : "mnE4NV25c",
+            "intrinsicHeight" : 36,
+            "intrinsicWidth" : 64,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "bGGmOXVvW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 58,
+            "rotation" : 0,
+            "top" : 222,
+            "visible" : true,
+            "width" : 64,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : 1,
+            "blendingEnabled" : 0,
+            "blendingMode" : "normal",
+            "borderBottom" : 3,
+            "borderColor" : "#222",
+            "borderEnabled" : 1,
+            "borderLeft" : 3,
+            "borderPerSide" : false,
+            "borderRight" : 3,
+            "borderStyle" : "solid",
+            "borderTop" : 3,
+            "borderWidth" : 3,
+            "bottom" : null,
+            "centerAnchorX" : 0.17705735660847879,
+            "centerAnchorY" : 0.1166936790923825,
+            "children" : [
+              {
+                "__class" : "TextNode",
+                "autoSize" : true,
+                "bottom" : null,
+                "centerAnchorX" : 0.49305555555555558,
+                "centerAnchorY" : 0.49305555555555558,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "exportOptions" : [
+
+                ],
+                "height" : 19,
+                "heightType" : 0,
+                "id" : "jEkbultTq",
+                "isTarget" : false,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "a7JKtxiLn",
+                "right" : null,
+                "rotation" : 0,
+                "styledText" : {
+                  "__class" : "StyledTextDraft",
+                  "blocks" : [
+                    {
+                      "data" : {
+                        "emptyStyle" : [
+                          "FONT:__SF-UI-Text-Regular__",
+                          "COLOR:rgb(0, 0, 0)",
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2"
+                        ]
+                      },
+                      "depth" : 0,
+                      "entityRanges" : [
+
+                      ],
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 1,
+                          "offset" : 0,
+                          "style" : "FONT:__SF-UI-Text-Regular__"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 0,
+                          "style" : "COLOR:rgb(0, 0, 0)"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 0,
+                          "style" : "SIZE:16"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 0,
+                          "style" : "LETTERSPACING:0"
+                        },
+                        {
+                          "length" : 1,
+                          "offset" : 0,
+                          "style" : "LINEHEIGHT:1.2"
+                        }
+                      ],
+                      "key" : "d4h9",
+                      "text" : "C",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "cached" : {
+                    "html" : "<div data-offset-key=\"d4h9-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"d4h9-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">C<\/span><\/span><\/div>",
+                    "os" : "10_14",
+                    "size" : {
+                      "height" : 19,
+                      "width" : 13
+                    },
+                    "width" : 0
+                  },
+                  "entityMap" : {
+
+                  }
+                },
+                "top" : null,
+                "visible" : true,
+                "width" : 13,
+                "widthType" : 0
+              }
+            ],
+            "clip" : false,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(0, 153, 255, 0.5)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillLinearGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
+            },
+            "fillRadialGradient" : {
+              "__class" : "RadialGradient",
+              "alpha" : 1,
+              "centerAnchorX" : 0.5,
+              "centerAnchorY" : 0.5,
+              "heightFactor" : 0.5,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
+              "widthFactor" : 0.5
+            },
+            "fillType" : "color",
+            "height" : 72,
+            "heightType" : 0,
+            "id" : "a7JKtxiLn",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 35,
+            "locked" : false,
+            "name" : null,
+            "navigationTarget" : null,
+            "navigationTransition" : "push",
+            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+            "navigationTransitionDirection" : "left",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "bGGmOXVvW",
+            "previewSettings" : null,
+            "radius" : 50,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : true,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 36,
+            "visible" : true,
+            "width" : 72,
+            "widthType" : 0
+          }
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "white",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillLinearGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 180,
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ]
+        },
+        "fillRadialGradient" : {
+          "__class" : "RadialGradient",
+          "alpha" : 1,
+          "centerAnchorX" : 0.5,
+          "centerAnchorY" : 0.5,
+          "heightFactor" : 0.5,
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ],
+          "widthFactor" : 0.5
+        },
+        "fillType" : "color",
+        "height" : 617,
+        "heightType" : 0,
+        "id" : "bGGmOXVvW",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : -153,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -322,
+        "visible" : true,
+        "width" : 401,
         "widthType" : 0
       }
     ],
@@ -1580,5 +2593,5 @@
     ],
     "visible" : false
   },
-  "version" : 51
+  "version" : 52
 }

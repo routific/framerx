@@ -7,7 +7,7 @@ export const ButtonFC = props => <System.ButtonFC {...props} />
 ButtonFC.defaultProps = {
     width: 68,
     height: 32,
-    label: "Label",
+    label: "Button",
     type: "primary",
     size: "default",
     icon: "",
