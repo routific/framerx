@@ -15,6 +15,7 @@
 	"author": "Chris Girard",
 	"dependencies": {
 		"@framer/alnikitin.ant-components": "^1.2.0",
+		"@framer/routific.design-buttons": "^1.1.0",
 		"@framer/routific.form-mock": "^1.0.0"
 	},
 	"name": "@framer/routific.routific",

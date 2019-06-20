@@ -37,6 +37,11 @@
   dependencies:
     antd "^3.9.2"
 
+"@framer/routific.design-buttons@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.framer.com/@framer/routific.design-buttons/-/@framer/routific.design-buttons-1.1.0.tgz#d67d8e7f77299f68642a88369d98d1da376b2370"
+  integrity sha512-yh27to3b7l8eMPu/6HGmUtDZnUAAuJU5vO2zkzt1tcb3Bhlit2ZBoUb7w+eRM2wZw7NsxDMMVNl2tiQ9HoKCRg==
+
 "@framer/routific.form-mock@^1.0.0":
   version "1.0.0"
   resolved "https://registry.framer.com/@framer/routific.form-mock/-/@framer/routific.form-mock-1.0.0.tgz#81033502a7297097c596454d38a542fd62127714"

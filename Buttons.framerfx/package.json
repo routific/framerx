@@ -1,0 +1,18 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "c11be0e2-8154-49a4-9c0d-53609de9550c",
+		"displayName": "Design Buttons"
+	},
+	"author": "Chris Girard",
+	"name": "@framer/routific.design-buttons",
+	"version": "1.1.0"
+}

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Button } from "antd";
+import 'antd/dist/antd.css'
 
 export interface Props {
   label: string
